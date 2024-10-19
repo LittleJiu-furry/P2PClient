@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="CelesteMod.props" />
+
+  <PropertyGroup>
+    <CelesteRootPath>D:\steam\steamapps\common\Celeste</CelesteRootPath>
+    <RootNamespace>Celeste.Mod.$(AssemblyName)</RootNamespace>
+    <LangVersion>preview</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <Import Project="CelesteMod.targets" />
+</Project>

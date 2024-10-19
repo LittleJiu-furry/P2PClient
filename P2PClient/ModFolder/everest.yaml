@@ -1,0 +1,6 @@
+- Name: P2PClient
+  Version: 0.1.0
+  DLL: Code/P2PClient.dll
+  Dependencies:
+    - Name: EverestCore
+      Version: 1.4465.0
